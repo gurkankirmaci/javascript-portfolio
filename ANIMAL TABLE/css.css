@@ -1,0 +1,32 @@
+body{
+  background: green no-repeat fixed center;
+}
+
+#petsTable{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    margin:auto;
+    background-color: rgb(97, 77, 63);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+
+}
+
+.row:hover{
+    background-color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: honeydew;
+}
+
+.animalPic {
+    width :400px;
+    height: 400px;
+    padding: 50px 0px 0px 0px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
