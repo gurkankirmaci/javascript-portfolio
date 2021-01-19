@@ -73,36 +73,6 @@ document.querySelector("#isLandBigger").addEventListener("click" , () => {
 });
 
 
-//Choose yazan selecti elimizdeki bulunan tum sehirlerin isimleriyle dolduralim.
-/*
-document.querySelector('#selectcity').remove(3);
-document.querySelector('#selectcity').remove(2);
-document.querySelector('#selectcity').remove(1);
-
-const cityName = data.map(cityName => cityName.name);
-const selectedCity = document.querySelector("#selectcity");
-
-var option = document.createElement("option");
-option.text= "San Francisco	";
-document.querySelector("#selectcity").add(option,1);
-
-var option = document.createElement('option');
-option.text = 'San Diego';
-document.querySelector('#selectcity').add(option,2);
-
-var option = document.createElement('option');
-option.text = 'Santa Rosa	';
-document.querySelector('#selectcity').add(option, 3);
-
-var option = document.createElement('option');
-option.text = 'Sacramento	';
-document.querySelector('#selectcity').add(option, 4);
-
-var option = document.createElement('option');
-option.text = 'Missoula	';
-document.querySelector('#selectcity').add(option, 5);
-
-*/
 
 //Choose yazan selecti elimizdeki bulunan tum sehirlerin isimleriyle dolduralim.
 
