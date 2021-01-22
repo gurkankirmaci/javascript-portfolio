@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(137, 48, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container{
+    position: relative;
+    background-color: white;
+}
+
+#searchBar{
+    height: 40px;
+    width: 200px;
+    border: 0;
+    margin :0px 0px 0px 10px;
+}
+
+.clickAfter{
+    display: none;
+}
+
+#searchBar:focus{  
+    outline: none;
+}
+
+#btn1{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    cursor: pointer;
+    border: 0px;
+}
+
+#btn1:focus{
+    outline: none;
+}
+
