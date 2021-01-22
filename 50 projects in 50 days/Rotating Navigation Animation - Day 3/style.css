@@ -1,0 +1,116 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    background-color:grey;
+    color: #222;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#container{
+    padding: 50px;
+    transform-origin: top left;
+    transition: transform 0.5s linear;
+    width: 100vw;
+    background-color: lavender;
+    
+}
+
+#content{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+
+.afterContainer{  
+  
+    transform : rotate(-20deg);
+    transform-origin: top left;
+    transition-delay: 0.1s;
+    transform-origin: -20% -10%;
+    width: 100vw;
+    height: 100%;
+}
+
+.dog img {
+    width: 100%;
+    height: 100%;
+}
+
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index:-1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 40px 0px 0px 30px;
+    transform: translateX(-50%);
+}
+
+nav ul li span {
+     margin-left: 60px;
+}
+
+#open{
+    left: 70%;
+}
+
+#close{
+    top: 70%;
+    left: 45%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.circle {
+    background-color:rgb(55, 155, 55);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s linear;
+
+    
+  }
+
+  .circle-container{
+    transform: translate(-69% ,-82%);
+    position: fixed;
+    
+  }
+  .circle button {
+    height: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    background: transparent;
+    border: 0;
+    color: #fff;
+  }
+  
+  .circle button:focus {
+    outline: none;
+  }
+
+  h1{
+      margin: 0px;
+  }
+
+  #container.afterContainer .circle {
+    transform: rotate(-70deg);
+  }
+
+ 
