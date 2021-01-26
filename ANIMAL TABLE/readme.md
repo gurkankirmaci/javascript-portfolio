@@ -1,2 +1,2 @@
 
-# Javascript 'Class' yapısı ile hayvanlar tablosu
+# Animal table with object OOP
