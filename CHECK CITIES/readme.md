@@ -1,4 +1,5 @@
 
+#Array Methods
 
 Tabloda 5 adet sehir ve bazi degerleri bulunuyor. Solda bulunan butonlara gore bazi islemler yapacagiz.
 
