@@ -16,12 +16,14 @@ body{
     transition: transform 0.5s linear;
     width: 100vw;
     background-color: lavender;
+    min-height: 100vh;
     
 }
 
 #content{
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
+    max-width: 1000px;
 }
 
 .afterContainer{  
